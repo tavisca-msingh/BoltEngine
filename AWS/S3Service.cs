@@ -18,15 +18,15 @@ namespace AWS
         private readonly string _bucketName = "processaudiodoc";
         public S3Service() { }
 
-        public async Task UploadS3Object(string name,object data)
+        public async Task UploadS3Object(string name,MemoryStream data)
         {
             var s3Client = new AmazonS3Client(RegionEndpoint.USEast1);
 
 
-            var memory = new MemoryStream(GetBytes(data));
+            //var memory = new MemoryStream(GetBytes(data));
             var uploadRequest = new PutObjectRequest()
             {
-                InputStream = memory,
+                InputStream = data,
                 BucketName = _bucketName,
                 Key = name,
             };
@@ -36,6 +36,7 @@ namespace AWS
             {
                 throw new Exception("Unable to upload");
             }
+
 
         }
 

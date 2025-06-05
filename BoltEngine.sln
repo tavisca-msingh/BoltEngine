@@ -5,7 +5,9 @@ VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoltEngine", "BoltEngine\BoltEngine.csproj", "{3938011F-1AB7-4B3E-A42C-7BA713B8E1C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS", "AWS\AWS.csproj", "{3988CFB8-25AF-4BCA-87C2-64BD841317A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS", "AWS\AWS.csproj", "{13BF9CA2-B544-4C41-AFA8-000EF81EB6E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{173820F5-31BE-4A7B-A4B4-9BCB8814DDC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,15 +19,16 @@ Global
 		{3938011F-1AB7-4B3E-A42C-7BA713B8E1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3938011F-1AB7-4B3E-A42C-7BA713B8E1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3938011F-1AB7-4B3E-A42C-7BA713B8E1C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3988CFB8-25AF-4BCA-87C2-64BD841317A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3988CFB8-25AF-4BCA-87C2-64BD841317A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3988CFB8-25AF-4BCA-87C2-64BD841317A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3988CFB8-25AF-4BCA-87C2-64BD841317A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BF9CA2-B544-4C41-AFA8-000EF81EB6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BF9CA2-B544-4C41-AFA8-000EF81EB6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BF9CA2-B544-4C41-AFA8-000EF81EB6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BF9CA2-B544-4C41-AFA8-000EF81EB6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173820F5-31BE-4A7B-A4B4-9BCB8814DDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173820F5-31BE-4A7B-A4B4-9BCB8814DDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173820F5-31BE-4A7B-A4B4-9BCB8814DDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173820F5-31BE-4A7B-A4B4-9BCB8814DDC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {94C0E386-69BB-471C-99F5-2C402794A3E6}
 	EndGlobalSection
 EndGlobal
